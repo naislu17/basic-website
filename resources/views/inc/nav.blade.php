@@ -11,7 +11,7 @@
 
 
 
-
+            <livewire:search-dropdown>
         <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto  ">
             <!-- Authentication Links -->
@@ -27,24 +27,11 @@
                     </li>
                 @endif
             @else
-                    <li class="nav-item">
+
+                    <li class="nav-item " >
                         <a href="{{ route('home') }}" class="nav-link {{ Request::route()->getName() === 'home' ? 'active' : '' }}">Home</a>
                     </li>
-                    <li class="nav-item ">
-                        <a href="{{ route('movie') }}" class="nav-link {{ Request::route()->getName() === 'movie' ? 'active' : '' }}" id="" role="button" >Movies</a>
 
-                    </li>
-                    <li class="nav-item ">
-                        <a href="{{ route('series') }}" class="nav-link  {{ Request::route()->getName() === 'series' ? 'active' : '' }}" id="" role="button" data-toggle="dropdown">Series</a>
-
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="{{ route('cartoons') }}" class="nav-link  {{ Request::route()->getName() === 'cartoons' ? 'active' : '' }}" id="" role="button" data-toggle="dropdown">Cartoons</a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ route('contact') }}" class="nav-link {{ Request::route()->getName() === 'contact' ? 'active' : '' }}">Contact</a>
-                    </li>
 
                 <li class="nav-item dropdown">
                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

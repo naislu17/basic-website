@@ -41,10 +41,20 @@ Route::get('/movie', 'MoviesController@index')->name('movie');
 
 
 Route::prefix('admin')->group(function (){
-Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
-Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
-Route::get('/', 'AdminController@index')->name('admin.dashboard');
+    Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
+    Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+
+    Route::resource('', 'AdminController') -> only('index', 'create', 'show', 'store', 'edit','update','get', 'destroy' );
+    Route::get('/', 'AdminController@index')->name('admin.dashboard');
+    Route::get('/{id}', 'AdminController@show');
+    Route::get('/{id}/edit', 'AdminController@edit');
+    Route::put('/{id}/edit', 'AdminController@update');
+    Route::delete('/{id}','AdminController@destroy');
+
+
+
 });
+
 
 
 Route::get('/movies/{movie}', 'MoviesController@show')->name('movies.show');

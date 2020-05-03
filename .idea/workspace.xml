@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6abcd5dd-de72-456b-a4c2-265c87913631" name="Default Changelist" comment="" />
+    <list default="true" id="6abcd5dd-de72-456b-a4c2-265c87913631" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/inc/adnav.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search-dropdown.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/basic-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basic-website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +43,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -116,18 +143,24 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aPEBJDk9fiNoviHzxHbyPyvQob" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="H:/basic-websi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-websit" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -136,15 +169,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\basic-website\resources\views" />
+      <recent name="C:\xampp\htdocs\basic-website\resources\views\admin" />
       <recent name="C:\xampp\htdocs\basic-website\resources\views\cartoons" />
       <recent name="C:\xampp\htdocs\basic-website\resources\views\movie" />
       <recent name="C:\xampp\htdocs\basic-website\public\storage" />
-      <recent name="C:\xampp\htdocs\basic-website\storage\app\public" />
-      <recent name="C:\xampp\htdocs\basic-website\app\Models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\basic-website\app" />
@@ -189,21 +222,46 @@
       <workItem from="1587055620807" duration="80000" />
       <workItem from="1587068450140" duration="1298000" />
       <workItem from="1587114301246" duration="1880000" />
+      <workItem from="1587294511573" duration="239000" />
+      <workItem from="1587589083610" duration="906000" />
+      <workItem from="1587589992052" duration="2415000" />
+      <workItem from="1587625885030" duration="724000" />
+      <workItem from="1587659812830" duration="13835000" />
+      <workItem from="1587678831035" duration="553000" />
+      <workItem from="1587711021501" duration="383000" />
+      <workItem from="1587718847351" duration="3961000" />
+      <workItem from="1587744051665" duration="192000" />
+      <workItem from="1587744256342" duration="786000" />
+      <workItem from="1587754934939" duration="913000" />
+      <workItem from="1587808691240" duration="973000" />
+      <workItem from="1588332901996" duration="7683000" />
+      <workItem from="1588522838919" duration="442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2352" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586943207144">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2352" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1586943207144" />
-    <state x="2420" y="185" key="FileChooserDialogImpl" timestamp="1587036027357">
+    <state x="2438" y="227" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1588337066996">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="667" y="224" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1586858647867" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587670128298" />
+    <state x="2438" y="227" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1588337066996" />
+    <state x="667" y="224" key="FileChooserDialogImpl" timestamp="1587679383483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="224" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587679383483" />
     <state x="2420" y="185" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587036027357" />
     <state width="1397" height="367" key="GridCell.Tab.0.bottom" timestamp="1586696931870">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -225,33 +283,45 @@
     </state>
     <state width="1397" height="367" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1586696931870" />
     <state width="1397" height="367" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1586692324908" />
-    <state x="2474" y="353" key="NewPhpFileDialog" timestamp="1587024543859">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state x="739" y="427" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1586891355207" />
-    <state x="2474" y="353" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587024543859" />
-    <state x="295" y="87" key="SettingsEditor" timestamp="1587116361090">
+    <state x="739" y="427" key="NewPhpFileDialog" timestamp="1587673044073">
       <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="427" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587673044073" />
+    <state x="2474" y="353" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587024543859" />
+    <state x="2141" y="72" key="SettingsEditor" timestamp="1588337610783">
+      <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="295" y="87" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587116361090" />
-    <state x="2141" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1586975027771" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587114300765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2141" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1588337610783" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1588522838939">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587114300765" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588522838939" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587808691432" />
     <state x="2412" y="284" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587022013278" />
-    <state x="2199" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587032142300">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state x="2199" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587032142300" />
-    <state x="2296" y="195" key="run.anything.popup" timestamp="1587024325595">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state x="2296" y="195" key="run.anything.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587024325595" />
-    <state x="511" y="218" width="896" height="820" key="search.everywhere.popup" timestamp="1587069602835">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588332902009" />
+    <state x="372" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587744136862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="511" y="218" width="896" height="820" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587069602835" />
-    <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587032147502" />
+    <state x="372" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587744136862" />
+    <state x="2199" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587032142300" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1587744197194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587744197194" />
+    <state x="501" y="236" key="run.anything.popup" timestamp="1587676292725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="501" y="236" key="run.anything.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587676292725" />
+    <state x="2296" y="195" key="run.anything.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1587024325595" />
+    <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1588342162223">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="511" y="218" width="896" height="820" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587744069868" />
+    <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1588342162223" />
+    <state x="895" y="582" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1587589938321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="895" y="582" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587589938321" />
   </component>
 </project>

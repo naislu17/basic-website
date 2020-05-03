@@ -1,17 +1,14 @@
-@extends('layouts.app')
+@extends('admin.layout.app')
 
-@section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">ADMIN Dashboard</div>
+@section('contact')
+    <h1>ADMIN </h1>
 
-                    <div class="panel-body">
-                        You are logged in as <strong>ADMIN</strong>
-                    </div>
-                </div>
-            </div>
+    @foreach($users as $user)
+        <div class="card m-2">
+            <h2 class=""><a href="/admin/{{$user->id}}">{{ $user->name }}</a></h2>
+            <h3>{{ $user->email }}</h3>
+            <span class="badge badge-danger">{{ $user->password }}</span>
+
         </div>
-    </div>
+    @endforeach
 @endsection
